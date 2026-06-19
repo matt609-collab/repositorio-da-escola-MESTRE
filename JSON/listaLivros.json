@@ -1,0 +1,20 @@
+{
+  "livrosBiblioteca": [
+    {
+      "titulo": "Como programar em JavaScript",
+      "preco": 59.99
+    },
+    {
+      "titulo": "Como programar em Python",
+      "preco": 39.99
+    },
+    {
+      "titulo": "O mundo de Sofia",
+      "preco": 79.99
+    },
+    {
+      "titulo": "The Muscle Ladder por Jeffrey Nippard",
+      "preco": 19.99
+    }
+  ]
+}
