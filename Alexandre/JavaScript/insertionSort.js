@@ -1,4 +1,4 @@
-const livros = require('./listaLivros.json');
+const livros = require('./JSON/listaLivros.json');
 
 function insertionSort(array) {
   for (let i = 1; i < array.length; i++) {
@@ -14,4 +14,4 @@ function insertionSort(array) {
   return array;
 }
 insertionSort(livros);
-console.log("buceta gigante");
+console.log(livros);
