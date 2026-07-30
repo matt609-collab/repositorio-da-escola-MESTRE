@@ -1,4 +1,4 @@
-const livros = require("./JSON/listaLivros.json").livrosBiblioteca;
+const livros = require("../JSON/listaLivros.json").livrosBiblioteca;
 const troca = require("./troca");
 
 function troca(lista, analise){

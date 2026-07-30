@@ -1,4 +1,4 @@
-const livros = require('./JSON/listaLivros.json').livrosBiblioteca;
+const livros = require('../JSON/listaLivros.json').livrosBiblioteca;
 
 function insertionSort(array) {
   for (let i = 1; i < array.length; i++) {

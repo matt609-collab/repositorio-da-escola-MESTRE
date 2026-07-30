@@ -1,4 +1,4 @@
-const livros = require("./JSON/listaLivros.json").livrosBiblioteca;
+const livros = require("../JSON/listaLivros.json").livrosBiblioteca;
 const menorValor = require("./menorValor");
 
 for (let atual = 0; atual < livros.length; atual++) {
