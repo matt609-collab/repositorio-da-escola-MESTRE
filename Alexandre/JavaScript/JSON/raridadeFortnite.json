@@ -1,0 +1,49 @@
+{
+  "assaultRifles": [
+    {
+      "Name" : "Grey Assault Rifle",
+      "Rarity" : 1,  
+      "Damage" : 30,
+      "Reload time" : 2.75,
+      "DPS" : 165,
+      "Headshot Multiplier" : 2,
+      "Magazine size" : 30
+    },
+    {
+      "Name" : "Green Assault Rifle",
+      "Rarity" : 2,  
+      "Damage" : 31,
+      "Reload time" : 2.62,
+      "DPS" : 170.5,
+      "Headshot Multiplier" : 2,
+      "Magazine size" : 30
+    },
+    {
+      "Name" : "Blue Assault Rifle",
+      "Rarity" : 3,  
+      "Damage" : 33,
+      "Reload time" : 2.5,
+      "DPS" : 181.5,
+      "Headshot Multiplier" : 2,
+      "Magazine size" : 30
+    },
+    {
+      "Name" : "Purple SCAR",
+      "Rarity" : 4,  
+      "Damage" : 35,
+      "Reload time" : 2.37,
+      "DPS" : 192.5,
+      "Headshot Multiplier" : 2,
+      "Magazine size" : 30
+    },
+    {
+      "Name" : "Yellow SCAR",
+      "Rarity" : 5,  
+      "Damage" : 36,
+      "Reload time" : 2.25,
+      "DPS" : 198,
+      "Headshot Multiplier" : 2,
+      "Magazine size" : 30
+    }
+  ]
+}
