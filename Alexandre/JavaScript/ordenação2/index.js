@@ -6,7 +6,7 @@ function juntaListas(lista1, lista2){
 	let posiçãoAtualLista2 = 0;
 	let atual = 0;
 
-	while(posicaoAtualLista1 < lista1.length && posicaoAtualLista2 < lista2.length{
+	while(posicaoAtualLista1 < lista1.length && posicaoAtualLista2 < lista2.length){
 		let produtoAtualLista1 = lista1[posicaoAtualLista1];
 		let produtoAtualLista2 = lista2[posicaoAtualLista2];
 		
@@ -18,8 +18,18 @@ function juntaListas(lista1, lista2){
 			posicaoAtualLista2++
 		}
 		atual++;
+        while(posicaoAtualLista1 < lista1.length) {
+            listaFinal[atual] = lista1[posicaoAtualLista1];
+            posicaoAtualLista1++;
+            atual++;
+        }
+        while(posicaoAtualLista2 < lista2.length) {
+            listaFinal[atual] = lista2[posicaoAtualLista2];
+            posicaoAtualLista2++;
+            atual++;
+        }
 	}
 	return listaFinal;
 }
 
-console.log(juntaLista(edGalho, edFolha);
+console.log(juntaLista(edGalho, edFolha));
