@@ -2,8 +2,8 @@ const {edGalho, edFolha} = require("./arrays");
 
 function juntaListas(lista1, lista2){
 	let listaFinal = [];
-	let posiçãoAtualLista1 = 0;
-	let posiçãoAtualLista2 = 0;
+	let posicaoAtualLista1 = 0;
+	let posicaoAtualLista2 = 0;
 	let atual = 0;
 
 	while(posicaoAtualLista1 < lista1.length && posicaoAtualLista2 < lista2.length){
@@ -32,4 +32,4 @@ function juntaListas(lista1, lista2){
 	return listaFinal;
 }
 
-console.log(juntaLista(edGalho, edFolha));
+console.log(juntaListas(edGalho, edFolha));
